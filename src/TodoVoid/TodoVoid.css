@@ -1,0 +1,20 @@
+.container-TodoVoid{
+    text-align: center;
+}
+
+.pending-task {
+    margin-bottom: 0;
+}
+
+.new-task {
+    margin-top: 8px;
+}
+
+.pig-image {
+    width: 100%;
+    height: 250px;
+    background-image: url('../img/pig.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

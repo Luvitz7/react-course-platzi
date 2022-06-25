@@ -1,0 +1,11 @@
+.TodoList {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.elementoTodo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}

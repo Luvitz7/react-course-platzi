@@ -1,0 +1,24 @@
+.Todo-Loading--Animation {
+    background: linear-gradient(90deg, rgba(97,218,251,1) 0%, rgba(0,0,0,1) 50%, rgba(167,35,187,1) 100%);
+    width: 104%;
+    height: 52px;
+    margin-top: 1rem;
+    margin-left: -2%;
+    box-shadow: 2px 2px 2px #492065 ;
+    border-radius: 8px;
+    border: none;
+    background-size: 400% 400%;
+	animation: gradient 2s ease-in-out infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 50% 50%;
+	}
+	50% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 50% 50%;
+	}
+}
